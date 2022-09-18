@@ -1,0 +1,106 @@
+.blue {
+    font-style: helvetica;
+    color: lightblue;
+}
+.mydiv {
+    border: 7px solid green;
+    width: 50px;
+    height: 300px;
+    float: left
+}
+.two {
+    border: 7px solid blue;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.three {
+    border: 7px solid green;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.four {
+    border: 7px solid blue;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.five {
+    border: 7px solid green;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.six {
+    border: 7px solid blue;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.seven {
+    border: 7px solid green;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.eight {
+    border: 7px solid blue;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.nine {
+    border: 7px solid green;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+.ten {
+    border: 7px solid blue;
+    width: 50px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+}
+
+/* dessa lägger sig i varandra i högra hörnet högts upp */
+
+.square{
+    border: 5px solid green;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+.circle {
+    border: 5px solid blueviolet;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.texten {
+    border: 5px solid pink;
+    height: 300px;
+    width: 800px;
+    position: relative;
+    text-align: center;
+}
+
+/* Vad är bäst att skriva font size i? och här för att ändra position på text behövde jag göra det i första div. vad är korrekt? */
+
+.write {
+    font-size: 30px;
+    color: green;  
+}

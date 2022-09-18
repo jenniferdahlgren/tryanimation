@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes rotate {
+form {
+    transform: rotate(45deg);
+}
+
+to {
+    transform: rotate(45deg);
+}
+}
+
+@keyframes heart {
+    0% {
+        transform: rotate(45deg) scale(0.8);
+    }
+    5% {
+      transform: rotate(45deg) scale(0.9);
+    }
+    10% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    15% {
+      transform: rotate(45deg) scale(1);
+    }
+    50% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    100% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    }
+
+    .myheart {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform: rotate(45deg);
+        background-color: red;
+        animation: heart 1.5s infinite;
+    }
+
+    .myheart::before,
+    .myheart::after {
+        position: absolute;
+        content: "";
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: red;
+    }
+
+    .myheart::before {
+        left: -100px;
+    }
+    .myheart::after {
+        top: -100px;
+    }
+
+    .heart {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        transform: rotate(45deg);
+        background-color: pink;
+        animation: heart 2s infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+        position: absolute;
+        content: "";
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: pink;
+    }
+
+    .heart::before {
+        left: -50px;
+    }
+
+    .heart::after {
+        top: -50px;
+
+    }
+
+    .hart {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        transform: rotate(45deg);
+        background-color: bisque;
+        animation: heart 2s infinite;
+    }
+
+    .hart::before,
+    .hart::after {
+        position: absolute;
+        content: "";
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: bisque;
+    }
+
+    .hart::before {
+        left: -40px;
+    }
+
+    .hart::after {
+        top: -40px;
+    }
